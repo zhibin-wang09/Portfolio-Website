@@ -2,13 +2,17 @@ import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './App.css'
-import logo from './github.png'
-
+import logo from './img/github.png'
+import google from './img/googlesprint.jpg'
 function Experience(){
   return(
     <>
     <h1 id="experience-title">Experience</h1>
-    <div>
+    <div id="experience-container">
+      <div className='experience'>
+        <img id="presentation" src={google}/>
+        <span>Google Design Sprint</span>
+      </div>
 
     </div>
     </>
