@@ -7,7 +7,7 @@ import logo from './github.png'
 function Projects(){
   return(
     <>
-    <h1>Project</h1>
+    <h1 id="project-section">Project</h1>
     <div id="project-container">
       <div className="project">
         <div className="icon-container">
