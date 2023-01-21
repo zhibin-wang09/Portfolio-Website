@@ -3,6 +3,7 @@ html,body{
   background-color: white;
   height:100%;
   font-family: "Gill Sans", sans-serif;
+  color:#424656;
 }
 
 
@@ -54,6 +55,11 @@ html,body{
   justify-content: center;
   align-items: center;
   padding:0px 10px 0px 10px; 
+  transition: box-shadow .3s;
+}
+
+.project:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
 }
 
 .icon{
@@ -79,6 +85,12 @@ html,body{
 
 #project-section{
   background-color: rgba(160, 251, 153,0.5);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#experience-title{
+  background-color: rgba(156, 181, 245,0.5);
   border-radius: 15px;
   padding: 10px;
 }

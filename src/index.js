@@ -4,6 +4,17 @@ import ReactDOM from 'react-dom/client'
 import './App.css'
 import logo from './github.png'
 
+function Experience(){
+  return(
+    <>
+    <h1 id="experience-title">Experience</h1>
+    <div>
+
+    </div>
+    </>
+  )
+}
+
 function Projects(){
   return(
     <>
@@ -49,6 +60,7 @@ class Base extends React.Component{
       <>
         <Greeting/>
         <Projects/>
+        <Experience/>
       </>
     )
   }
