@@ -150,3 +150,8 @@ html,body{
   border-width: 0.5px;
   border-radius: 9px;
 }
+
+#contact-link{
+  text-decoration: none;
+  float: left;
+}

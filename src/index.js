@@ -6,6 +6,27 @@ import logo from './img/github.png'
 import google from './img/googlesprint.jpg'
 import aot from './img/AMERICAONTECH.png'
 
+function Contact(){
+  return(
+    <div id ="footer-contact">
+      <h1>Get in touch</h1>
+      <p>I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn! :)</p>
+      <a href="zhib.wang09@gmail.com">zhib.wang@gmail.com</a>
+    </div>
+  )
+}
+
+function Activities(){
+  return(
+    <>
+      <h1 id="act-title">Activities</h1>
+      <div>
+
+      </div>
+    </>
+  )
+}
+
 function Experience(){
   return(
     <>
@@ -84,9 +105,14 @@ class Base extends React.Component{
   render(){
     return(
       <>
+        <div id="header-container">
+          <p><a href="" id="contact-link">contact</a></p>
+        </div>
         <Greeting/>
         <Projects/>
         <Experience/>
+        <Activities/>
+        <Contact/>
       </>
     )
   }
