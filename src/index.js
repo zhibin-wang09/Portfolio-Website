@@ -97,7 +97,7 @@ function Projects(){
 MongoDB database.</p>
         </div>
         <div className='github-link'>
-          <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github logo"/></a>
+          <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
         </div>
       </div>
     </div>
