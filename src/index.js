@@ -1,17 +1,23 @@
-import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './App.css'
 import logo from './img/github.png'
 import google from './img/googlesprint.jpg'
 import aot from './img/AMERICAONTECH.png'
+import linkedinlogo from './img/linkedin.png'
+import gingerbreadevent from './img/Gingerbreadevent.png'
+
 
 function Contact(){
   return(
     <div id ="footer-contact">
       <h1>Get in touch</h1>
       <p>I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn! :)</p>
-      <a href="zhib.wang09@gmail.com">zhib.wang@gmail.com</a>
+      <p><a href="mailto:zhib.wang09@gmail.com">zhib.wang@gmail.com</a></p>
+      <div id="footer-icon-link">
+        <a href="https://github.com/zhibin-wang09" target="_blank" rel="noopener noreferrer"><img src={logo} alt="github logo"/></a>
+        <a href="https://www.linkedin.com/in/zhi-bin-wang-62996a22b/" target="_blank" rel="noopener noreferrer"><img id="linkedinlogo" src={linkedinlogo} alt="linkedin logo"/></a>
+      </div>
     </div>
   )
 }
@@ -19,9 +25,21 @@ function Contact(){
 function Activities(){
   return(
     <>
-      <h1 id="act-title">Activities</h1>
-      <div>
-
+      <h1><span id="act-title">Activities</span></h1>
+      <div id="activity-container">
+        <div className="activity">
+          <figure id="gingerbreadevent-figure">
+            <img src={gingerbreadevent}  id='gingerbreadevent-img' alt='gingerbreadevent'/>
+            <figcaption>A gingerbread house making event hosted by my mentor group and I</figcaption>
+          </figure>
+          <div className='activity-desc'>
+            <strong><span className='activities-title'>Peer Mentoring</span></strong>
+            <p>Aug 2022 - Present</p>
+            <p>● Planning and facilitating activities/events for mentees to create networking opportunities.</p>
+            <p>● Guiding mentees through course support once per week enhances their productivity in the computer science
+curriculum.</p>
+          </div>
+        </div>
       </div>
     </>
   )
@@ -34,7 +52,7 @@ function Experience(){
     <div id="experience-container">
       <div className='experience'>
         <figure id="presentation-figure">
-          <img id="presentation" src={google}/>
+          <img id="presentation" src={google} alt="google spring presentation"/>
           <figcaption>Final pitch presentation (Left: Me)</figcaption>
         </figure>
         <div className='experience-desc'>
@@ -46,7 +64,7 @@ efficiency of the team by 45%.</p>
       </div>
       <div className='experience'>
         <figure id="america-on-tech-figure">
-          <img src={aot} id="aot-img"/>
+          <img src={aot} id="aot-img" alt='America on tech certificate'/>
           <figcaption>Graduating from the program</figcaption>
         </figure>
         <div className='experience-desc'>
@@ -79,7 +97,7 @@ function Projects(){
 MongoDB database.</p>
         </div>
         <div className='github-link'>
-          <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github"/></a>
+          <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github logo"/></a>
         </div>
       </div>
     </div>
@@ -106,7 +124,7 @@ class Base extends React.Component{
     return(
       <>
         <div id="header-container">
-          <p><a href="" id="contact-link">contact</a></p>
+          <p><a href="#footer-contact" id="contact-link">contact</a></p>
         </div>
         <Greeting/>
         <Projects/>

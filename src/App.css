@@ -138,6 +138,7 @@ html,body{
   background-color: rgba(249, 111, 111,0.5);
   padding:5px;
   border-radius: 10px;
+  line-height:30px;
 }
 
 #america-on-tech-figure{
@@ -151,7 +152,66 @@ html,body{
   border-radius: 9px;
 }
 
+#aot-img:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+}
+
 #contact-link{
   text-decoration: none;
   float: left;
+}
+
+#linkedinlogo{
+  width:4%;
+  margin-left: 5px;
+}
+
+#footer-icon-link{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#activity-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.activity{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#gingerbreadevent-figure{
+  width:30%;
+}
+
+#gingerbreadevent-img{
+  width:100%;
+  border-radius: 9px;
+}
+
+#gingerbreadevent-img:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+}
+
+#act-title{
+  background-color: rgba(0, 114, 195,0.5);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.activities-title{
+  background-color: rgba(249, 111, 111,0.5);
+  padding:5px;
+  border-radius: 10px;
+}
+
+.activity-desc{
+  margin-left: 20px;
+  inline-size: 300px;
+  padding:20px;
+  overflow-wrap: break-word;
 }
