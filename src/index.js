@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './App.css'
 import logo from './img/github.png'
 import google from './img/googlesprint.jpg'
+import aot from './img/AMERICAONTECH.png'
 
 function Experience(){
   return(
@@ -16,10 +17,22 @@ function Experience(){
           <figcaption>Final pitch presentation (Left: Me)</figcaption>
         </figure>
         <div className='experience-desc'>
-          <strong><span className='experience-title'>Google Design Sprint</span></strong>
+          <strong className='strong-title'><span className='experience-title'>Google Design Sprint</span></strong>
           <p>● Collaborated with a team of 5 to design and prototype a project using Figma that won the best-executed award.</p>
           <p>● Optimized the project using CUJ(Critical User Journey), user profile, and wireframing, which increased the
 efficiency of the team by 45%.</p>
+        </div>
+      </div>
+      <div className='experience'>
+        <figure id="america-on-tech-figure">
+          <img src={aot} id="aot-img"/>
+          <figcaption>Graduating from the program</figcaption>
+        </figure>
+        <div className='experience-desc'>
+          <strong className='strong-title'><span className='experience-title'>American On Tech TECH360 Intern</span></strong>
+          <p>Feb 2020 - May 2020</p>
+          <p>● Focused on developing knowledge and expertise in Coding, HTML, CSS, and Bootstrap.</p>
+          <p>● Worked on a team of four to create an encoded web page using the fundamentals of website development.</p>
         </div>
       </div>
 
