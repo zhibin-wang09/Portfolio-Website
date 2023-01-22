@@ -4,14 +4,23 @@ import ReactDOM from 'react-dom/client'
 import './App.css'
 import logo from './img/github.png'
 import google from './img/googlesprint.jpg'
+
 function Experience(){
   return(
     <>
-    <h1 id="experience-title">Experience</h1>
+    <h1 id="experience-title">Experiences</h1>
     <div id="experience-container">
       <div className='experience'>
-        <img id="presentation" src={google}/>
-        <span>Google Design Sprint</span>
+        <figure id="presentation-figure">
+          <img id="presentation" src={google}/>
+          <figcaption>Final pitch presentation (Left: Me)</figcaption>
+        </figure>
+        <div className='experience-desc'>
+          <strong><span className='experience-title'>Google Design Sprint</span></strong>
+          <p>● Collaborated with a team of 5 to design and prototype a project using Figma that won the best-executed award.</p>
+          <p>● Optimized the project using CUJ(Critical User Journey), user profile, and wireframing, which increased the
+efficiency of the team by 45%.</p>
+        </div>
       </div>
 
     </div>
@@ -50,7 +59,7 @@ function Greeting(){
   return (
     <>
     <div id="greeting-container">
-      <h1 id="greeting">Hey, 👋 I'm <span id="name">Zhi Bin</span></h1>
+      <h1 id="greeting">Hey 👋, I'm <span id="name">Zhi Bin</span></h1>
       <h5 id="description">I am a computer science student from Stony Brook University. <br/>  I am passionate about developing softwares that could change lives.</h5>
     </div>
     </>
