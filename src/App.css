@@ -3,10 +3,8 @@ html,body{
   background-color: white;  
   font-family: "Gill Sans", sans-serif;
   color:#424656;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
-
-
 
 
 #greeting-container{
@@ -26,7 +24,7 @@ html,body{
   text-align: center;
 }
 
-#root{
+#info{
   display:flex;
   justify-content: center;
   align-items: center;

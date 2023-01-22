@@ -123,14 +123,17 @@ class Base extends React.Component{
   render(){
     return(
       <>
-        <div id="header-container">
-          <p><a href="#footer-contact" id="contact-link">contact</a></p>
+        <div id="info">
+          <div id="header-container">
+            <p><a href="#footer-contact" id="contact-link">contact</a></p>
+          </div>
+          <Greeting/>
+          <Projects/>
+          <Experience/>
+          <Activities/>
+          <Contact/>
         </div>
-        <Greeting/>
-        <Projects/>
-        <Experience/>
-        <Activities/>
-        <Contact/>
+        
       </>
     )
   }
