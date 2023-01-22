@@ -13,7 +13,7 @@ function Contact(){
     <div id ="footer-contact">
       <h1>Get in touch</h1>
       <p>I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn! :)</p>
-      <p><a href="mailto:zhib.wang09@gmail.com">zhib.wang@gmail.com</a></p>
+      <p><a href="mailto:zhib.wang09@gmail.com">zhib.wang09@gmail.com</a></p>
       <div id="footer-icon-link">
         <a href="https://github.com/zhibin-wang09" target="_blank" rel="noopener noreferrer"><img src={logo} alt="github logo"/></a>
         <a href="https://www.linkedin.com/in/zhi-bin-wang-62996a22b/" target="_blank" rel="noopener noreferrer"><img id="linkedinlogo" src={linkedinlogo} alt="linkedin logo"/></a>
