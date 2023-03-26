@@ -6,6 +6,7 @@ import google from './img/googlesprint.jpg'
 import aot from './img/AMERICAONTECH.png'
 import linkedinlogo from './img/linkedin.png'
 import gingerbreadevent from './img/Gingerbreadevent.png'
+import link from './img/icons8-linking-32.png'
 
 
 function Contact(){
@@ -35,9 +36,9 @@ function Activities(){
           <div className='activity-desc'>
             <strong><span className='activities-title'>Peer Mentoring</span></strong>
             <p>Aug 2022 - Present</p>
-            <p>● Planning and facilitating activities/events for mentees to create networking opportunities.</p>
-            <p>● Guiding mentees through course support once per week enhances their productivity in the computer science
-curriculum.</p>
+            <p>● Plan and facilitate activities/events for mentees; events have a total 120+ participants overall.</p>
+            <p>● Coach three mentees on a weekly basis offering general academic advice in computer science curriculum to
+enhance their focus and development.</p>
           </div>
         </div>
       </div>
@@ -57,9 +58,8 @@ function Experience(){
         </figure>
         <div className='experience-desc'>
           <strong className='strong-title'><span className='experience-title'>Google Design Sprint</span></strong>
-          <p>● Collaborated with a team of 5 to design and prototype a project using Figma that won the best-executed award.</p>
-          <p>● Optimized the project using CUJ(Critical User Journey), user profile, and wireframing, which increased the
-efficiency of the team by 45%.</p>
+          <p>● Collaborated with a team of five to design and prototype a product using Figma that won the Google Design Sprint best-executed award.</p>
+          <p>● Optimized the design process using CUJ (Critical User Journey) and wireframing, which increased the efficiency of the team by 45%.</p>
         </div>
       </div>
       <div className='experience'>
@@ -70,8 +70,9 @@ efficiency of the team by 45%.</p>
         <div className='experience-desc'>
           <strong className='strong-title'><span className='experience-title'>American On Tech TECH360 Intern</span></strong>
           <p>Feb 2020 - May 2020</p>
-          <p>● Focused on developing knowledge and expertise in Coding, HTML, CSS, and Bootstrap.</p>
-          <p>● Worked on a team of four to create an encoded web page using the fundamentals of website development.</p>
+          <a href="https://video-games-store.zhibinbin.repl.co">See project</a>
+          <p>● Played a key role on a four person team to create an encoded web page using website development fundamentals.</p>
+          <p>● Focused on developing knowledge and expertise in HTML, CSS, and Bootstrap.</p>
         </div>
       </div>
 
@@ -92,12 +93,30 @@ function Projects(){
         <div className="project-shortdesc">
           <p className='project-title'><strong>Post-It</strong></p>
           <p>A note taking chrome extension</p>
+          <p>Dec/2022 - Jan/2023</p>
+          <p>• Developed a sticky note extension tool that enables convenient note-taking on any website, leading to 20%
+              improvement in study efficiency.</p>
           <p>• Utilized the React library to build an interface to interact with the REST API.</p>
           <p>• Implemented a REST API to allow C.R.U.D(Create, Read, Update, Delete) operations on user inputs in the
-MongoDB database.</p>
+            MongoDB database.</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
+        </div>
+      </div>
+      <div className='project'>
+        <div className='icon-container'>
+          <p className='icon'>🎮</p>
+        </div>
+        <div className="project-shortdesc">
+          <p className='project-title'><strong>Nightview Video Game</strong></p>
+          <p>Video Game Online Store</p>
+          <p>Feb/2020 - May/2020</p>
+          <p>• Collaborated with fellow America On Tech Students to create the encoded website.</p>
+          <p>• Implemented using HTML, CSS, and Bootstrap to create user interface.</p>
+        </div>
+        <div className='github-link'>
+          <a href="https://video-games-store.zhibinbin.repl.co"><img src={link} alt="link" target='_blnak' rel="noopener noreferrer"/></a>
         </div>
       </div>
     </div>
