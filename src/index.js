@@ -119,6 +119,21 @@ function Projects(){
           <a href="https://video-games-store.zhibinbin.repl.co"><img src={link} alt="link" target='_blnak' rel="noopener noreferrer"/></a>
         </div>
       </div>
+      <div className="project">
+        <div className="icon-container">
+          <p className='icon'>🔐</p>
+        </div>
+        <div className="project-shortdesc">
+          <p className='project-title'><strong>Cryptocurrency Trade Watcher</strong></p>
+          <p>A command line interface that monitors Cryptocurrency Exchanges</p>
+          <p>Apr/2023</p>
+          <p>• Built a multi-process command line interface program that enables users to monitor multiple ongoing trades
+          while processing and storing relevant information.</p>
+        </div>
+        <div className='github-link'>
+          <a href="https://github.com/zhibin-wang09/C-Project"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
+        </div>
+      </div>
     </div>
     </>
     
@@ -131,7 +146,7 @@ function Greeting(){
     <>
     <div id="greeting-container">
       <h1 id="greeting">Hey 👋, I'm <span id="name">Zhi Bin</span></h1>
-      <h5 id="description">I am a computer science student from Stony Brook University. <br/>  I am passionate about developing softwares that could change lives.</h5>
+      <h5 id="description">I am a computer science student from Stony Brook University. <br/>  I am passionate about developing softwares that could influence millions positively.</h5>
     </div>
     </>
     
