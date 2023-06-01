@@ -95,7 +95,7 @@ function Projects(){
           <p>A command line interface that monitors Cryptocurrency Exchanges</p>
           <p>Apr/2023</p>
           <p>• Programmed a multi-process command line interface program that enables users to monitor multiple ongoing trades while processing and storing relevant information.</p>
-          <p>Implemented system level signals and read/write pipes to allow inter-process communication.</p>
+          <p>• Implemented system level signals and read/write pipes to allow inter-process communication.</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/C-Project"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
