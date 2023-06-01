@@ -59,7 +59,7 @@ function Experience(){
         <div className='experience-desc'>
           <strong className='strong-title'><span className='experience-title'>Google Design Sprint</span></strong>
           <p>● Collaborated with a team of five to design and prototype a product using Figma that won the Google Design Sprint best-executed award.</p>
-          <p>● Optimized the design process using CUJ (Critical User Journey) and wireframing, which increased the efficiency of the team by 45%.</p>
+          <p>● Optimized the design process using CUJ (Critical User Journey) and wireframing, which increased the efficiency of the team by 30%.</p>
         </div>
       </div>
       <div className='experience'>
@@ -94,11 +94,10 @@ function Projects(){
           <p className='project-title'><strong>Post-It</strong></p>
           <p>A note taking chrome extension</p>
           <p>Dec/2022 - Jan/2023</p>
-          <p>• Developed a sticky note extension tool that enables convenient note-taking on any website, leading to 20%
-              improvement in study efficiency.</p>
-          <p>• Utilized the React library to build an interface to interact with the REST API.</p>
-          <p>• Implemented a REST API to allow C.R.U.D(Create, Read, Update, Delete) operations on user inputs in the
-            MongoDB database.</p>
+          <p>• Developed a chrome extension tool that enables convenient note-taking on any website, leading to a 20%
+improvement in study efficiency.</p>
+          <p>• Implemented a REST API with express.js to allow C.R.U.D(Create, Read, Update, Delete) operations on user
+inputs in the MongoDB database with React as the frontend.</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
@@ -127,8 +126,8 @@ function Projects(){
           <p className='project-title'><strong>Cryptocurrency Trade Watcher</strong></p>
           <p>A command line interface that monitors Cryptocurrency Exchanges</p>
           <p>Apr/2023</p>
-          <p>• Built a multi-process command line interface program that enables users to monitor multiple ongoing trades
-          while processing and storing relevant information.</p>
+          <p>• Programmed a multi-process command line interface program that enables users to monitor multiple ongoing trades while processing and storing relevant information.</p>
+          <p>Implemented system level signals and read/write pipes to allow inter-process communication.</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/C-Project"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
