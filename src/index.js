@@ -111,7 +111,7 @@ function Projects(){
           <p>Dec/2022 - Jan/2023</p>
           <p>• Developed a chrome extension tool that enables convenient note-taking on any website, leading to a 20%
 improvement in study efficiency.</p>
-          <p>• Implemented a REST API with express.js to allow C.R.U.D(Create, Read, Update, Delete) operations on user
+          <p>• Deployed a REST API with express.js to allow C.R.U.D(Create, Read, Update, Delete) operations on user
 inputs in the MongoDB database with React as the frontend.</p>
         </div>
         <div className='github-link'>
