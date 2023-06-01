@@ -86,6 +86,21 @@ function Projects(){
     <>
     <h1 id="project-section">Project</h1>
     <div id="project-container">
+    <div className="project">
+        <div className="icon-container">
+          <p className='icon'>🔐</p>
+        </div>
+        <div className="project-shortdesc">
+          <p className='project-title'><strong>Cryptocurrency Trade Monitor</strong></p>
+          <p>A command line interface that monitors Cryptocurrency Exchanges</p>
+          <p>Apr/2023</p>
+          <p>• Programmed a multi-process command line interface program that enables users to monitor multiple ongoing trades while processing and storing relevant information.</p>
+          <p>Implemented system level signals and read/write pipes to allow inter-process communication.</p>
+        </div>
+        <div className='github-link'>
+          <a href="https://github.com/zhibin-wang09/C-Project"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
+        </div>
+      </div>
       <div className="project">
         <div className="icon-container">
           <p className='icon'>📝</p>
@@ -116,21 +131,6 @@ inputs in the MongoDB database with React as the frontend.</p>
         </div>
         <div className='github-link'>
           <a href="https://video-games-store.zhibinbin.repl.co"><img src={link} alt="link" target='_blnak' rel="noopener noreferrer"/></a>
-        </div>
-      </div>
-      <div className="project">
-        <div className="icon-container">
-          <p className='icon'>🔐</p>
-        </div>
-        <div className="project-shortdesc">
-          <p className='project-title'><strong>Cryptocurrency Trade Watcher</strong></p>
-          <p>A command line interface that monitors Cryptocurrency Exchanges</p>
-          <p>Apr/2023</p>
-          <p>• Programmed a multi-process command line interface program that enables users to monitor multiple ongoing trades while processing and storing relevant information.</p>
-          <p>Implemented system level signals and read/write pipes to allow inter-process communication.</p>
-        </div>
-        <div className='github-link'>
-          <a href="https://github.com/zhibin-wang09/C-Project"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
         </div>
       </div>
     </div>
