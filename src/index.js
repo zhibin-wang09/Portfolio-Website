@@ -152,6 +152,26 @@ function Greeting(){
   )
 }
 
+function Circles(){
+  return (
+    <section id='animatedbackground'>
+      <ul className='circles'>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+      <li className = 'blue'></li>
+    </ul>
+    </section>
+  )
+}
+
+
 class Base extends React.Component{
   render(){
     return(
@@ -165,6 +185,7 @@ class Base extends React.Component{
           <Experience/>
           <Activities/>
           <Contact/>
+          <Circles/>
         </div>
         
       </>
