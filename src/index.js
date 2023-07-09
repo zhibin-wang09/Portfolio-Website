@@ -16,7 +16,7 @@ function Contact(){
       <p>I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn! :)</p>
       <p><a href="mailto:zhib.wang09@gmail.com">zhib.wang09@gmail.com</a></p>
       <div id="footer-icon-link">
-        <a href="https://github.com/zhibin-wang09" target="_blank" rel="noopener noreferrer"><img src={logo} alt="github logo"/></a>
+        <a href="https://github.com/zhibin-wang09" target="_blank" rel="noopener noreferrer"><img className = "link-icon" src={logo} alt="github logo"/></a>
         <a href="https://www.linkedin.com/in/zhi-bin-wang-62996a22b/" target="_blank" rel="noopener noreferrer"><img id="linkedinlogo" src={linkedinlogo} alt="linkedin logo"/></a>
       </div>
     </div>
@@ -94,11 +94,12 @@ function Projects(){
           <p className='project-title'><strong>Cryptocurrency Trade Monitor</strong></p>
           <p>A command line interface that monitors Cryptocurrency Exchanges</p>
           <p>Apr/2023</p>
-          <p>• Programmed a multi-process command line interface program that enables users to monitor multiple ongoing trades while processing and storing relevant information.</p>
-          <p>• Implemented system level signals and read/write pipes to allow inter-process communication.</p>
+          <p><i>Git</i> | <i>C</i> | <i>CLI(Command Line Interface)</i> | <i>Linux</i></p>
+          <p>• Programmed a multi-process command line interface program that enable users to monitor multiple ongoing trades while processing and storing relevant information.</p>
+          <p>• Implemented low level system signals, non-blocking IO, and read/write pipes to enable inter-process communication.</p>
         </div>
         <div className='github-link'>
-          <a href="https://github.com/zhibin-wang09/C-Project"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
+          <a href="https://github.com/zhibin-wang09/C-Project"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
         </div>
       </div>
       <div className="project">
@@ -109,13 +110,12 @@ function Projects(){
           <p className='project-title'><strong>Post-It</strong></p>
           <p>A note taking chrome extension</p>
           <p>Dec/2022 - Jan/2023</p>
-          <p>• Developed a chrome extension tool that enables convenient note-taking on any website, leading to a 20%
-improvement in study efficiency.</p>
-          <p>• Deployed a REST API with express.js to allow C.R.U.D(Create, Read, Update, Delete) operations on user
-inputs in the MongoDB database with React as the frontend.</p>
+          <p><i>Git</i> | <i>HTML/CSS</i> | <i>Javascript</i> | <i>Express.js</i> | <i>React</i> | <i>Mongodb</i></p>
+          <p>• Developed a full stack chrome extension tool that enables convenient note-taking on any website, leading to a 20% improvement in study efficiency.</p>
+          <p>• Built REST API with express.js to allow C.R.U.D (Create, Read, Update, Delete) operations on user inputs in the MongoDB database with React as the frontend.</p>
         </div>
         <div className='github-link'>
-          <a href="https://github.com/zhibin-wang09/Post-It"><img src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
+          <a href="https://github.com/zhibin-wang09/Post-It"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
         </div>
       </div>
       <div className='project'>
@@ -126,11 +126,12 @@ inputs in the MongoDB database with React as the frontend.</p>
           <p className='project-title'><strong>Nightview Video Game</strong></p>
           <p>Video Game Online Store</p>
           <p>Feb/2020 - May/2020</p>
+          <p><i>HTML/CSS</i> | <i>Bootstrap</i></p>
           <p>• Collaborated with fellow America On Tech Students to create the encoded website.</p>
           <p>• Implemented using HTML, CSS, and Bootstrap to create user interface.</p>
         </div>
         <div className='github-link'>
-          <a href="https://video-games-store.zhibinbin.repl.co"><img src={link} alt="link" target='_blnak' rel="noopener noreferrer"/></a>
+          <a href="https://video-games-store.zhibinbin.repl.co"><img className = "link-icon" src={link} alt="link" target='_blnak' rel="noopener noreferrer"/></a>
         </div>
       </div>
     </div>

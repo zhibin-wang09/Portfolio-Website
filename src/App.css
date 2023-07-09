@@ -356,3 +356,48 @@ html,body{
 		opacity: 0;
 	}
 }
+
+@media (prefers-color-scheme : dark){
+  body{
+    color: #CBCCCE;
+    background: #010101;
+  } 
+
+  body a{
+    color: #809fff;
+  }
+
+  #presentation:hover{
+    box-shadow: 0 0 11px rgb(255, 255, 255,0.5); 
+  }
+
+  .project:hover{
+    box-shadow: 0 0 11px rgb(255, 255, 255,0.5); 
+  }
+
+
+  #gingerbreadevent-img:hover{
+    box-shadow: 0 0 11px rgba(255, 255, 255, 0.5); 
+  }
+
+  #name{
+    background-color: rgba(38, 83, 232, 0.5);
+  }
+
+
+  #project-section{
+    background-color: rgba(38, 83, 232, 0.5);
+  }
+
+  #experience-title{
+    background-color: rgba(38, 83, 232, 0.5);
+  }
+
+  #act-title{
+    background-color: rgba(38, 83, 232, 0.5);
+  }
+
+  .link-icon{
+    filter: invert(100%);
+  }
+}
