@@ -89,6 +89,11 @@ html,body{
   padding: 10px;
 }
 
+.tools{
+  display: flex;
+  align-items: center;
+}
+
 #experience-title{
   background-color: rgba(156, 181, 245,0.5);
   border-radius: 15px;
@@ -360,7 +365,7 @@ html,body{
 @media (prefers-color-scheme : dark){
   body{
     color: #CBCCCE;
-    background: #010101;
+    background: #1D2127;
   } 
 
   body a{

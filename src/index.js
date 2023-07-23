@@ -7,7 +7,20 @@ import aot from './img/AMERICAONTECH.png'
 import linkedinlogo from './img/linkedin.png'
 import gingerbreadevent from './img/Gingerbreadevent.png'
 import link from './img/icons8-linking-32.png'
-
+import java from './tool_icons/java.png'
+import springboot from './tool_icons/springboot.png'
+import postgresql from './tool_icons/postgresql.png'
+import git from './tool_icons/git.png'
+import c from './tool_icons/C.png'
+import linux from './tool_icons/linux.png'
+import cli from './tool_icons/cli.png'
+import js from './tool_icons/js.png'
+import html from './tool_icons/html.png'
+import css from './tool_icons/css.png'
+import react from './tool_icons/react.png'
+import express from './tool_icons/expressjs.png'
+import mongodb from './tool_icons/mongodb.png'
+import bootstrap from './tool_icons/bootstrap.png'
 
 function Contact(){
   return(
@@ -91,14 +104,23 @@ function Projects(){
         <p className='icon'>🎹</p>
       </div>
       <div className='project-shortdesc'>
-        <p className='project-title'>My Groove Fusion</p>
+        <p className='project-title'>Beat Mixer</p>
         <p> A desktop beat maker application that allows the user to be creative with music</p>
         <p>Jun/2023 - Jul/2023</p>
-        <p><i>Java</i> | <i>Java SpringBoot</i> | <i>Java Swing</i> | <i>PostgreSQL</i> | <i>Git</i></p>
+        <div className='tools'>
+          <p><i>Java</i></p> <img alt='java icon' src={java}/> <p>|</p>
+          <p><i>Java SpringBoot</i> </p> <img alt='sprig boot icon' src={springboot}/> <p>|</p>
+          <p><i>Java Swing</i></p> <p>|</p>
+          <p><i>PostgreSQL</i></p> <img alt= 'postgresql icon' src ={postgresql}/> <p>|</p>
+          <p><i>Git</i></p> <img alt='git icon' src={git}/>
+        </div>
         <p>• Developed a desktop GUI(Graphical User Interface) application using Java Swing framework to assist user with
           playing, and mixing audio files. </p>
         <p>• Building RESTful API with Java Spring Boot framework to handle incoming data and communicate with the
           PostgreSQL database.</p>
+      </div>
+      <div className='github-link'>
+          <a href="https://github.com/zhibin-wang09/MyGrooveFusion"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
       </div>
     </div>
     <div className="project">
@@ -109,7 +131,12 @@ function Projects(){
           <p className='project-title'><strong>Cryptocurrency Trade Monitor</strong></p>
           <p>A command line interface that monitors Cryptocurrency Exchanges</p>
           <p>Apr/2023</p>
-          <p><i>C</i> | <i>CLI(Command Line Interface)</i> | <i>Linux</i> | <i>Git</i></p>
+          <div className='tools'>
+            <p><i>C</i></p> <img alt='c icon' src={c}/> <p>|</p>
+            <p><i>CLI (Command Line Interface)</i> </p><img alt='cli icon' src={cli}/> <p>|</p>
+            <p><i>Linux</i></p> <img alt= 'linux icon' src ={linux}/> <p>|</p>
+            <p><i>Git</i></p> <img alt='git icon' src={git}/> <p>|</p>
+          </div>
           <p>• Programmed a multi-process command line interface program that enable users to monitor multiple ongoing trades while processing and storing relevant information.</p>
           <p>• Implemented low level system signals, non-blocking IO, and read/write pipes to enable inter-process communication.</p>
         </div>
@@ -126,7 +153,16 @@ function Projects(){
           <p className='project-title'><strong>Post-It</strong></p>
           <p>A note taking chrome extension</p>
           <p>Dec/2022 - Jan/2023</p>
-          <p> <i>Javascript</i> | <i>Express.js</i> | <i>React</i> | <i>Mongodb</i> | <i>HTML/CSS</i> | <i>Git</i> </p>
+          <div className='tools'>
+            <p><i>Javascript</i></p> <img alt='javascript icon' src={js}/> <p>|</p>
+            <p><i>Express.js</i> </p> <img alt='express icon' src={express}/> <p>|</p>
+            <p><i>React</i></p> <img alt='react icon' src={react}/> <p>|</p>
+            <p><i>Mongodb</i></p> <img alt= 'mongodb icon' src ={mongodb}/> <p>|</p>
+            <p><i>HTML</i></p> <img alt='html icon' src={html}/> <p>|</p>
+            <p><i>CSS</i></p> <img alt='css icon' src={css}/> <p>|</p>
+            <p><i>Git</i></p> <img alt='git icon' src={git}/>
+
+          </div>
           <p>• Developed a full stack chrome extension tool that enables convenient note-taking on any website, leading to a 20% improvement in study efficiency.</p>
           <p>• Depoyed REST API with express.js to allow C.R.U.D (Create, Read, Update, Delete) operations on user inputs in the MongoDB database with React as the frontend.</p>
           <p>• Integrated authorization and authentication methods into the application using JWT(JSON Web Token) to make the application more secure.</p>
@@ -143,7 +179,11 @@ function Projects(){
           <p className='project-title'><strong>Nightview Video Game</strong></p>
           <p>Video Game Online Store</p>
           <p>Feb/2020 - May/2020</p>
-          <p><i>HTML/CSS</i> | <i>Bootstrap</i></p>
+          <div className='tools'>
+            <p><i>HTML</i></p> <img alt='html icon' src={html}/> <p>|</p>
+            <p><i>CSS</i> </p><img alt='css icon' src={css}/> <p>|</p>
+            <p><i>Bootstrap</i></p> <img alt= 'bootstrap icon' src ={bootstrap}/>
+          </div>
           <p>• Collaborated with fellow America On Tech Students to create the encoded website.</p>
           <p>• Implemented using HTML, CSS, and Bootstrap to create user interface.</p>
         </div>
