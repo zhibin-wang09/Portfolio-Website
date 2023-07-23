@@ -86,6 +86,21 @@ function Projects(){
     <>
     <h1 id="project-section">Project</h1>
     <div id="project-container">
+    <div className='project'>
+      <div className='icon-container'>
+        <p className='icon'>🎹</p>
+      </div>
+      <div className='project-shortdesc'>
+        <p className='project-title'>My Groove Fusion</p>
+        <p> A desktop beat maker application that allows the user to be creative with music</p>
+        <p>Jun/2023 - Jul/2023</p>
+        <p><i>Java</i> | <i>Java SpringBoot</i> | <i>Java Swing</i> | <i>PostgreSQL</i> | <i>Git</i></p>
+        <p>• Developed a desktop GUI(Graphical User Interface) application using Java Swing framework to assist user with
+          playing, and mixing audio files. </p>
+        <p>• Building RESTful API with Java Spring Boot framework to handle incoming data and communicate with the
+          PostgreSQL database.</p>
+      </div>
+    </div>
     <div className="project">
         <div className="icon-container">
           <p className='icon'>🔐</p>
@@ -94,7 +109,7 @@ function Projects(){
           <p className='project-title'><strong>Cryptocurrency Trade Monitor</strong></p>
           <p>A command line interface that monitors Cryptocurrency Exchanges</p>
           <p>Apr/2023</p>
-          <p><i>Git</i> | <i>C</i> | <i>CLI(Command Line Interface)</i> | <i>Linux</i></p>
+          <p><i>C</i> | <i>CLI(Command Line Interface)</i> | <i>Linux</i> | <i>Git</i></p>
           <p>• Programmed a multi-process command line interface program that enable users to monitor multiple ongoing trades while processing and storing relevant information.</p>
           <p>• Implemented low level system signals, non-blocking IO, and read/write pipes to enable inter-process communication.</p>
         </div>
@@ -102,6 +117,7 @@ function Projects(){
           <a href="https://github.com/zhibin-wang09/C-Project"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
         </div>
       </div>
+      
       <div className="project">
         <div className="icon-container">
           <p className='icon'>📝</p>
@@ -110,10 +126,10 @@ function Projects(){
           <p className='project-title'><strong>Post-It</strong></p>
           <p>A note taking chrome extension</p>
           <p>Dec/2022 - Jan/2023</p>
-          <p><i>Git</i> | <i>HTML/CSS</i> | <i>Javascript</i> | <i>Express.js</i> | <i>React</i> | <i>Mongodb</i></p>
+          <p> <i>Javascript</i> | <i>Express.js</i> | <i>React</i> | <i>Mongodb</i> | <i>HTML/CSS</i> | <i>Git</i> </p>
           <p>• Developed a full stack chrome extension tool that enables convenient note-taking on any website, leading to a 20% improvement in study efficiency.</p>
           <p>• Depoyed REST API with express.js to allow C.R.U.D (Create, Read, Update, Delete) operations on user inputs in the MongoDB database with React as the frontend.</p>
-          <p>• Integrated authorization and authentication methods into the application using JWT(Json Web Token) to make the application more secure.</p>
+          <p>• Integrated authorization and authentication methods into the application using JWT(JSON Web Token) to make the application more secure.</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/Post-It"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
