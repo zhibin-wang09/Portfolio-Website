@@ -106,7 +106,7 @@ function Projects(){
       <div className='project-shortdesc'>
         <p className='project-title'>Beat Mixer</p>
         <p> A desktop beat maker application that allows the user to be creative with music</p>
-        <p>Jun/2023 - Jul/2023</p>
+        <p>Jun/2023 - Present</p>
         <div className='tools'>
           <p><i>Java</i></p> <img alt='java icon' src={java}/> <p>|</p>
           <p><i>Java SpringBoot</i> </p> <img alt='sprig boot icon' src={springboot}/> <p>|</p>
