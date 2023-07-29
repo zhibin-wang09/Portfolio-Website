@@ -14,7 +14,7 @@ import git from './tool_icons/git.png'
 import c from './tool_icons/C.png'
 import linux from './tool_icons/linux.png'
 import cli from './tool_icons/cli.png'
-import js from './tool_icons/js.png'
+import js from './tool_icons/nodejs.png'
 import html from './tool_icons/html.png'
 import css from './tool_icons/css.png'
 import react from './tool_icons/react.png'
@@ -154,9 +154,9 @@ function Projects(){
           <p>A note taking chrome extension</p>
           <p>Dec/2022 - Jan/2023</p>
           <div className='tools'>
-            <p><i>Javascript</i></p> <img alt='javascript icon' src={js}/> <p>|</p>
+            <p><i>Node.js</i></p> <img alt='javascript icon' src={js}/> <p>|</p>
             <p><i>Express.js</i> </p> <img alt='express icon' src={express}/> <p>|</p>
-            <p><i>React</i></p> <img alt='react icon' src={react}/> <p>|</p>
+            <p><i>React.js</i></p> <img alt='react icon' src={react}/> <p>|</p>
             <p><i>Mongodb</i></p> <img alt= 'mongodb icon' src ={mongodb}/> <p>|</p>
             <p><i>HTML</i></p> <img alt='html icon' src={html}/> <p>|</p>
             <p><i>CSS</i></p> <img alt='css icon' src={css}/> <p>|</p>
