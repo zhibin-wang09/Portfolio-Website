@@ -114,10 +114,9 @@ function Projects(){
           <p><i>PostgreSQL</i></p> <img alt= 'postgresql icon' src ={postgresql}/> <p>|</p>
           <p><i>Git</i></p> <img alt='git icon' src={git}/>
         </div>
-        <p>• Developed a desktop GUI(Graphical User Interface) application using Java Swing framework to assist user with
-          playing, and mixing audio files. </p>
-        <p>• Building RESTful API with Java Spring Boot framework to handle incoming data and communicate with the
-          PostgreSQL database.</p>
+        <p>• Developed a desktop application using Java Swing framework to assist user with playing and mixing audio files.</p>
+        <p>• Built RESTful API with Java Spring Boot framework to handle incoming audio data and store into the
+PostgreSQL database.</p>
       </div>
       <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/MyGrooveFusion"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
@@ -137,8 +136,8 @@ function Projects(){
             <p><i>Linux</i></p> <img alt= 'linux icon' src ={linux}/> <p>|</p>
             <p><i>Git</i></p> <img alt='git icon' src={git}/> <p>|</p>
           </div>
-          <p>• Programmed a multi-process command line interface program that enable users to monitor multiple ongoing trades while processing and storing relevant information.</p>
-          <p>• Implemented low level system signals, non-blocking IO, and read/write pipes to enable inter-process communication.</p>
+          <p>• Programmed a multi-process command line interface program to monitor multiple ongoing trades.</p>
+          <p>• Implemented low-level system signals, non-blocking IO, and read/write pipes for inter-process communication.</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/C-Project"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
@@ -163,9 +162,9 @@ function Projects(){
             <p><i>Git</i></p> <img alt='git icon' src={git}/>
 
           </div>
-          <p>• Developed a full stack chrome extension tool that enables convenient note-taking on any website, leading to a 20% improvement in study efficiency.</p>
-          <p>• Depoyed REST API with express.js to allow C.R.U.D (Create, Read, Update, Delete) operations on user inputs in the MongoDB database with React as the frontend.</p>
-          <p>• Integrated authorization and authentication methods into the application using JWT(JSON Web Token) to make the application more secure.</p>
+          <p>• Developed a full-stack Chrome extension that enables note-taking on websites, leading to a 20% improvement in study efficiency.</p>
+          <p>• Designed and built RESTful API with express.js to implement C.R.U.D(Create, Read, Update, Delete) operations on MongoDB database with React as the frontend.</p>
+          <p>• Improve security by integrated authorization and authentication protocol into the application using JWT(JSON Web Token).</p>
         </div>
         <div className='github-link'>
           <a href="https://github.com/zhibin-wang09/Post-It"><img className = "link-icon" src={logo} alt="github logo" target='_blank' rel="noopener noreferrer"/></a>
