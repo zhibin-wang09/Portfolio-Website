@@ -67,8 +67,8 @@ function Experience(){
       <div className='experience'>
         <div className='experience-desc'>
           <strong className='strong-title'><span className='experience-title'>Teaching Assistant</span></strong>
-          <p>● Prepared and conducted weekly recitations for over 30 students in the course Introduction to Data Structures and Algorithm</p>
-          <p>● Hosted office hours to assist students with their assignments and general concepts.</p>
+          <p>● Prepare and conduct weekly recitations for over 30 students in the course Introduction to Data Structures and Algorithm</p>
+          <p>● Host office hours to assist students with their assignments and general concepts.</p>
         </div>
       </div>
       <div className='experience'>
