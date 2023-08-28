@@ -65,12 +65,19 @@ function Experience(){
     <h1 id="experience-title">Experiences</h1>
     <div id="experience-container">
       <div className='experience'>
+        <div className='experience-desc'>
+          <strong className='strong-title'><span className='experience-title'>Teaching Assistant</span></strong>
+          <p>● Prepared and conducted weekly recitations for over 30 students in the course Introduction to Data Structures and Algorithm</p>
+          <p>● Hosted office hours to assist students with their assignments and general concepts.</p>
+        </div>
+      </div>
+      <div className='experience'>
         <figure id="presentation-figure">
           <img id="presentation" src={google} alt="google spring presentation"/>
           <figcaption>Final pitch presentation (Left: Me)</figcaption>
         </figure>
         <div className='experience-desc'>
-          <strong className='strong-title'><span className='experience-title'>Google Design Sprint</span></strong>
+          <strong className='strong-title'><span className='experience-title'>Application Design Sprint</span></strong>
           <p>● Collaborated with a team of five to design and prototype a product using Figma that won the Google Design Sprint best-executed award.</p>
           <p>● Optimized the design process using CUJ (Critical User Journey) and wireframing, which increased the efficiency of the team by 30%.</p>
         </div>
