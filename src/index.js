@@ -108,7 +108,7 @@ function Experience() {
         <div className="experience">
           <figure id="presentation-figure">
             <img id="presentation" src={capitalone} alt="Capital one richmond location" />
-            <figcaption>Capital One office</figcaption>
+            <figcaption>Capital One Intern Summit</figcaption>
           </figure>
           <div className="experience-desc">
             <strong className="strong-title">

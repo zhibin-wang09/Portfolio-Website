@@ -43,6 +43,12 @@ html,body{
   justify-content: center;
   align-items: center;
 }
+.project, .experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .project{
   display:flex;
@@ -268,4 +274,47 @@ html,body{
   .link-icon{
     filter: invert(100%);
   }
+}
+@media screen and (max-width: 768px) {
+  .experience, .project {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #presentation-figure, #gingerbreadevent-figure {
+    width: 80%; 
+  }
+
+  .experience-desc, .activity-desc, .project-shortdesc {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #greeting {
+    font-size: 2rem;
+  }
+
+  #description {
+    font-size: 0.9rem;
+  }
+}
+
+#header-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #contact-link {
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
