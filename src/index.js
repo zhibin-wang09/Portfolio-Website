@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import ReactGA from 'react-ga';
 import ReactDOM from "react-dom/client";
 import "./App.css";
 import logo from "./img/github.png";
@@ -26,8 +25,6 @@ import framermotion from "./tool_icons/framermotion.png";
 import chakraui from "./tool_icons/chakraui.png";
 import redis from "./tool_icons/redis.webp";
 
-const TRACKING_ID = "G-M813M65THV";
-ReactGA.initialize(TRACKING_ID);
 
 function Contact() {
   return (
