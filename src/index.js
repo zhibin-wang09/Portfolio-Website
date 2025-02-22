@@ -1,17 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import TagManager from "react-gtm-module";
 import ReactDOM from "react-dom/client";
 import "./App.css";
 import logo from "./img/github.png";
 import google from "./img/googlesprint.jpg";
-import aot from "./img/AMERICAONTECH.png";
 import linkedinlogo from "./img/linkedin.png";
 import gingerbreadevent from "./img/Gingerbreadevent.png";
 import lab from "./img/Lab.jpg";
 import capitalone from "./img/capitalone.HEIC";
-import link from "./img/icons8-linking-32.png";
 import java from "./tool_icons/java.png";
 import springboot from "./tool_icons/springboot.png";
-import postgresql from "./tool_icons/postgresql.png";
 import git from "./tool_icons/git.png";
 import c from "./tool_icons/C.png";
 import linux from "./tool_icons/linux.png";
@@ -22,7 +20,6 @@ import css from "./tool_icons/css.png";
 import react from "./tool_icons/react.png";
 import express from "./tool_icons/expressjs.png";
 import mongodb from "./tool_icons/mongodb.png";
-import bootstrap from "./tool_icons/bootstrap.png";
 import typescript from "./tool_icons/ts.png";
 import socketio from "./tool_icons/socketio.png";
 import framermotion from "./tool_icons/framermotion.png";
@@ -107,7 +104,11 @@ function Experience() {
       <div id="experience-container">
         <div className="experience">
           <figure id="presentation-figure">
-            <img id="presentation" src={capitalone} alt="Capital one richmond location" />
+            <img
+              id="presentation"
+              src={capitalone}
+              alt="Capital one richmond location"
+            />
             <figcaption>Capital One Intern Summit</figcaption>
           </figure>
           <div className="experience-desc">
@@ -115,19 +116,22 @@ function Experience() {
               <span className="experience-title">Software Engineer Intern</span>
             </strong>
             <p>
-              • Optimized the software approval process, empowering <strong>10,000+</strong> users with self-service lifecycle and reducing
-              engineering hours by <strong>40%</strong>.
+              • Optimized the software approval process, empowering{" "}
+              <strong>10,000+</strong> users with self-service lifecycle and
+              reducing engineering hours by <strong>40%</strong>.
             </p>
             <p>
-              • Integrated self-service lifecycle management into the API using GO and PostgreSQL, hosted via AWS Lambda
-              and Aurora.
+              • Integrated self-service lifecycle management into the API using
+              GO and PostgreSQL, hosted via AWS Lambda and Aurora.
             </p>
             <p>
-              • Spearheaded UI developed using TypeScript and React, creating flexible and customizable self-service lifecycle,
-              deployed via serverless UI hosted on AWS S3.
+              • Spearheaded UI developed using TypeScript and React, creating
+              flexible and customizable self-service lifecycle, deployed via
+              serverless UI hosted on AWS S3.
             </p>
             <p>
-              • Implemented testing strategies using Vitest, Cypress, and Testify, writing <strong>87</strong> unit and E2E tests increasing
+              • Implemented testing strategies using Vitest, Cypress, and
+              Testify, writing <strong>87</strong> unit and E2E tests increasing
               overall test coverage by <strong>253%</strong>.
             </p>
           </div>
@@ -467,27 +471,31 @@ function Greeting() {
   );
 }
 
-class Base extends React.Component {
-  render() {
-    return (
-      <>
-        <div id="info">
-          <div id="header-container">
-            <p>
-              <a href="#footer-contact" id="contact-link">
-                contact
-              </a>
-            </p>
-          </div>
-          <Greeting />
-          <Experience />
-          <Projects />
-          <Activities />
-          <Contact />
+function Base() {
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: "G-M813M65THV",
+    };
+    TagManager.initialize(tagManagerArgs);
+  });
+  return (
+    <>
+      <div id="info">
+        <div id="header-container">
+          <p>
+            <a href="#footer-contact" id="contact-link">
+              contact
+            </a>
+          </p>
         </div>
-      </>
-    );
-  }
+        <Greeting />
+        <Experience />
+        <Projects />
+        <Activities />
+        <Contact />
+      </div>
+    </>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
